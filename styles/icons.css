@@ -1,0 +1,99 @@
+	    .container_huge {
+			display: grid;
+			border: 0.02rem solid transparent;
+			place-items: center;
+		}
+		#badges {
+          display: flex;
+          place-content: space-around;    
+          border: 0.05rem solid transparent;   
+          margin-bottom: 1rem; 
+          margin-left: 0.2rem;
+          margin-right: 0.2rem; 
+        }
+      #age_under {
+          display: flex;
+          border: 0.05rem solid transparent; 
+          margin-right: 1rem;
+      }  
+   .signs {
+       display: grid;
+       width: 3rem;
+       height: 3rem;
+       border-radius: 50%;
+       background: #FB2121;   
+       box-shadow: 0 0 1.5rem 0.01rem #F8F8F8;  
+   } 
+   .inner {
+       display: grid;
+       width: 2.5rem;
+       height: 2.5rem;
+       border-radius: 50%;
+       background: #FFFEFB;
+       margin-left: 0.25rem;
+       margin-top: 0.25rem;
+       place-content: center;
+    } 
+   .digits {
+       color: #06030B;  
+       font-family: "Cuprum";
+       font-size: 1.3rem;
+       font-weight: bold;
+   }
+    #do_not_smoke {
+          display: flex;
+          border: 0.05rem solid transparent;
+          margin-left: 1rem;
+    } 
+     .roll {
+          display: grid;
+          width: 1.8rem;
+          height: 0.34em;
+          margin-left: 0.35rem;
+          margin-top: 0.5rem;
+          border-radius: 0.2rem;
+          background: #06030B;  
+     }
+     .ash {
+         display: grid;
+         width: 0.3rem;
+         height: 0.34rem;
+         box-shadow: 0 0 0.3rem 0.01rem inset #FFC44E;  
+         border-radius: 50%;
+         opacity: 0.9;
+     }
+      .fume_up {
+          display: grid;
+          width: 0.1rem;
+          height: 0.8rem;
+          background: #06030B; 
+          filter: blur(3px);
+          margin-left: 0.4rem;
+          margin-top: -1.1rem;
+      }
+      .strip {
+          display: grid;
+          width: 0.2rem;
+          height: 2.6rem;
+          background: #FB2121;    
+          transform: translateX(1.4rem) translateY(-2.55rem) rotate(25deg);
+      }
+		        @font-face {
+                    font-family: "Cuprum"; 
+                    src: url("../fonts/dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6VjvYJw.woff2") format("woff2");  
+                    font-style: normal; 
+                    font-weight: normal; 
+                    font-display: block;
+                }
+        
+        @media(min-width: 1950px) {
+                    .container_huge {
+                        width: 1400px;
+                        place-self: center;
+                    }
+        }  
+		@media(max-width: 279px) {
+            .container_huge {
+              display: none;
+            }
+        }
