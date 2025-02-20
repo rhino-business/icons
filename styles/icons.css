@@ -1,4 +1,4 @@
-	   .container_huge {
+                .container_huge {
 			display: grid;
 			border: 0.02rem solid transparent;
 			place-items: center;
@@ -78,7 +78,7 @@
           background: #FB2121;    
           transform: translateX(1.4rem) translateY(-2.55rem) rotate(25deg);
        }
-	            @font-face {
+	        @font-face {
                     font-family: "Cuprum"; 
                     src: url("../fonts/dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6VjvYJw.woff2") format("woff2");  
                     font-style: normal; 
@@ -92,7 +92,7 @@
                         place-self: center;
                     }
         }  
-	    @media(max-width: 279px) {
+	@media(max-width: 279px) {
             .container_huge {
               display: none;
             }
